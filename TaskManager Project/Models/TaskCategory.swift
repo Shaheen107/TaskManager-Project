@@ -1,5 +1,6 @@
 import SwiftUI
 
+//Task Categorys
 enum TaskCategory: String, CaseIterable, Codable {
     case work = "Work"
     case personal = "Personal"
