@@ -1,10 +1,3 @@
-
-//  ExportManager.swift
-//  TaskManager Project
-//
-//  Created by AppleDev on 15/10/2025.
-//
-
 import Foundation
 import UIKit
 import PDFKit
