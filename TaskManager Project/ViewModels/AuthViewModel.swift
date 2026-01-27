@@ -1,4 +1,3 @@
-// MARK: - Enhanced AuthViewModel with Data Clearing
 import SwiftUI
 import FirebaseAuth
 import GoogleSignIn
