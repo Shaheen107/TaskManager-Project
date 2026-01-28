@@ -293,10 +293,12 @@ class TaskManager: ObservableObject {
             let description = data["description"] as? String,
             let priorityString = data["priority"] as? String,
             let priority = TaskPriority(rawValue: priorityString),
+        
             let categoryString = data["category"] as? String,
             let category = TaskCategory(rawValue: categoryString),
             let isCompleted = data["isCompleted"] as? Bool,
             let createdTimestamp = data["createdDate"] as? Timestamp
+        
         else {
             print("⚠️ Failed to decode task from Firestore")
             return nil
