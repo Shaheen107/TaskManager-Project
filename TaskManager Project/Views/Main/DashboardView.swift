@@ -1,4 +1,4 @@
-
+import SwiftUI
 
 struct DashboardView: View {
     @EnvironmentObject var authViewModel: AuthViewModel
@@ -238,7 +238,7 @@ struct DashboardView: View {
                     .foregroundColor(.secondary)
                 
                 Text("Let's be productive!")
-                    .font(.system(size: 28, weight: .bold))
+                     .font(.system(size: 28, weight: .bold))
                     .foregroundColor(.primary)
             }
             
@@ -329,7 +329,7 @@ struct DashboardView: View {
                 EmptyStateView(
                     icon: "checkmark.circle",
                     title: "All caught up!",
-                    subtitle: "No tasks for today"
+                    subtitle: "No tasks for today!"
                 )
             } else {
                 LazyVStack(spacing: 10) {
@@ -352,7 +352,7 @@ struct DashboardView: View {
                 EmptyStateView(
                     icon: "tray",
                     title: "No completed tasks yet",
-                    subtitle: "Complete some tasks to see your progress"
+                    subtitle: "Complete some tasks to see your progress!"
                 )
             } else {
                 LazyVStack(spacing: 10) {
