@@ -58,14 +58,13 @@ struct TaskManager_ProjectApp: App {
     // MARK: - Handle Scene Phase Changes
     private func handleScenePhaseChange(_ newPhase: ScenePhase) {
         switch newPhase {
+            
         case .background:
             print("📱 App entered background")
             // Save any pending data if needed
-            
         case .active:
             print("📱 App became active")
             // Refresh data if needed
-            
         case .inactive:
             print("📱 App became inactive")
             
