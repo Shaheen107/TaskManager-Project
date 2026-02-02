@@ -1,4 +1,3 @@
-import SwiftUI
 
 struct CompletedTaskRowView: View {
     let task: TaskItems
