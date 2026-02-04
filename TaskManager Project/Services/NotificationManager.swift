@@ -46,11 +46,13 @@ class NotificationManager {
     func sendDailySummaryNow(statistics: TaskStatistics) {
         let content = UNMutableNotificationContent()
         content.title = "📊 Your Daily Summary"
+        
         content.body = """
         ✅ Completed: \(statistics.tasksCompletedToday)
         📋 Total: \(statistics.totalTasks)
         ⏳ Pending: \(statistics.pendingTasks)
         """
+        
         content.sound = .default
         content.badge = 1
         
