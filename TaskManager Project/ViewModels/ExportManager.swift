@@ -93,6 +93,7 @@ class ExportManager {
                     .font: UIFont.boldSystemFont(ofSize: 18),
                     .foregroundColor: UIColor.black
                 ]
+                                             
                 "Statistics Overview".draw(at: CGPoint(x: 50, y: yPosition), withAttributes: sectionAttributes)
                 yPosition += 25
                 
