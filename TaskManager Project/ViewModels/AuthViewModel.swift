@@ -99,6 +99,7 @@ class AuthViewModel: ObservableObject {
                 self.user = authResult.user
                 self.isAuthenticated = true
             }
+            
         } catch {
             self.errorMessage = error.localizedDescription
         }
