@@ -36,13 +36,13 @@ class NotificationManager {
         }
     }
     
-    // MARK: - Cancel Daily Summary
+    // MARK: - Cancel Daily Summary Notification
     func cancelDailySummary() {
         UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: ["daily_summary"])
         print("🔕 Daily summary notification cancelled")
     }
     
-    // MARK: - Send Immediate Daily Summary
+    // MARK: - Send Immediate Daily Summary 
     func sendDailySummaryNow(statistics: TaskStatistics) {
         let content = UNMutableNotificationContent()
         content.title = "📊 Your Daily Summary"
