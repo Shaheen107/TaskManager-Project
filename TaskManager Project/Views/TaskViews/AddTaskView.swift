@@ -69,6 +69,7 @@ struct AddTaskView: View {
                             .foregroundColor(.secondary)
                     }
                 }
+                
             }
             .navigationTitle("New Task")
             .navigationBarTitleDisplayMode(.inline)
