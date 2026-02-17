@@ -21,7 +21,7 @@ struct AppConstants {
         static let taskReminder = "task_reminder"
     }
     
-    // MARK: - App Info
+    // MARK: --> App Info
     struct AppInfo {
         static let name = "TaskMaster"
         static let version = "1.0.0"
