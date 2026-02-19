@@ -2,9 +2,11 @@ import SwiftUI
 
 struct DashboardView: View {
     @EnvironmentObject var authViewModel: AuthViewModel
+    
     @EnvironmentObject var themeManager: ThemeManager
     @StateObject private var taskManager = TaskManager()
     @StateObject private var networkMonitor = NetworkMonitor()
+    
     @State private var showingAddTask = false
     @State private var selectedTab = 0
     @State private var showingSyncError = false
