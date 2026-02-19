@@ -40,10 +40,12 @@ struct DashboardView: View {
             .tag(2)
             
             NavigationView {
+                
                 ProfileView()
                     .environmentObject(authViewModel)
                     .environmentObject(themeManager)
                     .environmentObject(taskManager)
+                
             }
             .tabItem {
                 Image(systemName: "person.fill")
