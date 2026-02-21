@@ -12,7 +12,7 @@ class NotificationManager {
         content.title = "Daily Task Summary"
         content.body = "Check your productivity stats and plan your day!"
         content.sound = .default
-        content.badge = 1
+        content.badge = 1  
         content.categoryIdentifier = "DAILY_SUMMARY"
         
         var dateComponents = DateComponents()
