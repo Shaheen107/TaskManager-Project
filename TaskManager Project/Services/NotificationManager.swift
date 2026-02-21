@@ -73,7 +73,7 @@ class NotificationManager {
         }
     }
     
-    // MARK: - Check if Daily Summary is Scheduled
+    // MARK: - Check if Daily Summary is Scheduled 
     func isDailySummaryScheduled(completion: @escaping (Bool) -> Void) {
         UNUserNotificationCenter.current().getPendingNotificationRequests { requests in
             let isScheduled = requests.contains { $0.identifier == "daily_summary" }
