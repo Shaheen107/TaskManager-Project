@@ -41,6 +41,7 @@ struct TaskManager_ProjectApp: App {
             handleScenePhaseChange(newPhase)
         }
     }
+
     
     // MARK: - Setup Notifications
     private func setupNotifications() {
@@ -54,6 +55,7 @@ struct TaskManager_ProjectApp: App {
             }
         }
     }
+
     
     // MARK: - Handle Scene Phase Changes
     private func handleScenePhaseChange(_ newPhase: ScenePhase) {
