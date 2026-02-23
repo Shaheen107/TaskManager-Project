@@ -42,7 +42,6 @@ class NotificationManager {
         print("🔕 Daily summary notification cancelled")
     }
     
-    
     // MARK: - Send Immediate Daily Summary 
     func sendDailySummaryNow(statistics: TaskStatistics) {
         let content = UNMutableNotificationContent()
