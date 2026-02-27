@@ -1,5 +1,5 @@
 import Foundation
-import swiftUI
+
 struct AppConstants {
     // MARK: - Firebase Collections
     static let usersCollection = "users"
