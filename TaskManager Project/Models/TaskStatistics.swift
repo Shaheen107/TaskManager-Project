@@ -17,7 +17,6 @@ struct TaskStatistics {
     // Formatted average time
     var formattedAverageTime: String {
         guard averageCompletionTime > 0 else { return "N/A" }
-        
         let hours = Int(averageCompletionTime) / 3600
         let minutes = Int(averageCompletionTime) / 60 % 60
         let days = hours / 24
