@@ -352,7 +352,6 @@ struct StatisticsView: View {
     }
     
     // MARK: - Data Properties (FIXED & WORKING!)
-    
     private var numberOfDays: Int {
         switch selectedTimeRange {
         case .week: return 7
