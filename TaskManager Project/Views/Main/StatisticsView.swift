@@ -36,6 +36,7 @@ struct StatisticsView: View {
         .navigationBarTitleDisplayMode(.large)
     }
     
+    
     // MARK: - Header Stats Section (ENHANCED)
     private var headerStatsSection: some View {
         let stats = taskManager.statistics
