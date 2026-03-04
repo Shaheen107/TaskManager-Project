@@ -9,6 +9,7 @@
 			<string>Editor</string>
 
 			<key>CFBundleURLName</key>
+
 			<string>REVERSED_CLIENT_ID</string>
 			<key>CFBundleURLSchemes</key>
 
