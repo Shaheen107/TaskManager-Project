@@ -45,6 +45,7 @@ class NetworkMonitor: ObservableObject {
         monitor.cancel()
     }
     
+    
     deinit {
         stopMonitoring()
     }
