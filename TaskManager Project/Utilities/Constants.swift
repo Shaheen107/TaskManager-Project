@@ -1,6 +1,7 @@
 import Foundation
 
 struct AppConstants {
+    
     // MARK: - Firebase Collections
     static let usersCollection = "users"
     static let tasksCollection = "tasks"
