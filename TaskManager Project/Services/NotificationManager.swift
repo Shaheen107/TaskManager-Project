@@ -34,6 +34,7 @@ class NotificationManager {
                 print("✅ Daily summary scheduled for \(hour):\(minute)")
             }
         }
+        
     }
     
     // MARK: - Cancel Daily Summary Notification
