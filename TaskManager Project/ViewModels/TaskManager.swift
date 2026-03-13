@@ -654,8 +654,6 @@ class TaskManager: ObservableObject {
         print("✅ All data cleared successfully")
     }
     
-    
-    
     private func cancelNotification(for taskId: String) {
         UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: [taskId])
     }
