@@ -41,6 +41,7 @@ class TaskManager: ObservableObject {
                 NotificationManager.shared.scheduleDailySummary(at: hour, minute: minute)
             }
         }
+        
     }
     
     // MARK: - Setup User with Network Monitoring
