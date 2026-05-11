@@ -10,9 +10,11 @@
 			<key>CFBundleURLName</key>
 			<string>REVERSED_CLIENT_ID</string>
 			<key>CFBundleURLSchemes</key>
+
 			<array>
 				<string>com.googleusercontent.apps.365107172168-s8g1t9t1bj2c24tp107734afegisq2m6</string>
 			</array>
+
 		</dict>
 	</array>
 </dict>
