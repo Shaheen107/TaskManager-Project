@@ -7,7 +7,7 @@ enum TaskPriority: String, CaseIterable, Codable {
     
     var color: Color {
         switch self {
-        case .low: return .blue
+        case .low: return .bluer
         case .medium: return .orange
         case .high: return .red
         }
