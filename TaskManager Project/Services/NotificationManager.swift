@@ -65,6 +65,7 @@ class NotificationManager {
             trigger: trigger
         )
         
+        
         UNUserNotificationCenter.current().add(request) { error in
             if let error = error {
                 print("❌ Failed to send daily summary: \(error)")
