@@ -58,7 +58,6 @@ struct TaskItems: Codable, Identifiable {
             return "< 1m"
         }
     }
-    
     // MARK: - Codable Implementation
     enum CodingKeys: String, CodingKey {
         case id, title, description, priority, category, isCompleted
