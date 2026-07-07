@@ -5,7 +5,6 @@ enum TaskPriority: String, CaseIterable, Codable {
     case medium = "Medium"
     case high = "High"
 
-    
     var color: Color {
         switch self {
         case .low: return .blue
@@ -14,7 +13,6 @@ enum TaskPriority: String, CaseIterable, Codable {
         }
     }
 
-    
     var sortOrder: Int {
         switch self {
         case .high: return 3
