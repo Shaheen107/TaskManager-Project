@@ -119,7 +119,8 @@ class ExportManager {
                 yPosition += 20
                 
                 // Tasks Section
-                "Task List".draw(at: CGPoint(x: 50, y: yPosition), withAttributes: sectionAttributes)
+                
+                                             "Task List".draw(at: CGPoint(x: 50, y: yPosition), withAttributes: sectionAttributes)
                 yPosition += 25
                 
                 let taskAttributes: [NSAttributedString.Key: Any] = [
