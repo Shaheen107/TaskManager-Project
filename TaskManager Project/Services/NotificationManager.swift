@@ -15,6 +15,7 @@ class NotificationManager {
         content.badge = 1  
         content.categoryIdentifier = "DAILY_SUMMARY"
         
+        
         var dateComponents = DateComponents()
         dateComponents.hour = hour
         dateComponents.minute = minute
