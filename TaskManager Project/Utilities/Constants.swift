@@ -23,6 +23,7 @@ struct AppConstants {
     }
     
     // MARK: --> App Info
+    
     struct AppInfo {
         static let name = "TaskMaster"
         static let version = "1.0.0"
