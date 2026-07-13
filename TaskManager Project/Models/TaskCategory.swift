@@ -11,6 +11,7 @@ enum TaskCategory: String, CaseIterable, Codable {
     case travel = "Travel"
     case other = "Other"
     
+    
     var color: Color {
         switch self {
         case .work: return .blue
