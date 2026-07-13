@@ -30,6 +30,7 @@ struct AppConstants {
         static let bundleID = "com.taskmaster.app"
     }
     
+    
     // MARK: - Time Constants
     struct Time {
         static let syncInterval: TimeInterval = 60 // 1 minute
