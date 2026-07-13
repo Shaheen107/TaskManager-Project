@@ -39,6 +39,7 @@ class NotificationManager {
     }
     
     // MARK: - Cancel Daily Summary Notification
+    
     func cancelDailySummary() {
         UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: ["daily_summary"])
         print("🔕 Daily summary notification cancelled")
